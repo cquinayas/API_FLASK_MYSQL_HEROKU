@@ -42,7 +42,7 @@ Port number: 3306 )
 <https://api-flask.herokuapp.com/>
 
 ## Link video de muestra
-
+<https://youtu.be/PfWZXSlBt94>
 
 ![Arquitectura](https://github.com/cquinayas/API_FLASK_MYSQL_HEROKU/blob/main/assets/API.png)
       
