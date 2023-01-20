@@ -1,6 +1,14 @@
 # API_Flask_Heroku
-Desarrollo y puesta en produción de una API usando Flask y Heroku Cloud. 
+Desarrollo y puesta en produción de una API usando Flask y Heroku Cloud para realizar las siguientes consultas:
 
+* Cantidad de veces que aparece una keyword en el título de peliculas/series, por plataforma
+* Cantidad de películas por plataforma con un puntaje mayor a XX en determinado año
+* La segunda película con mayor score para una plataforma determinada, según el orden alfabético de los títulos.
+* Película que más duró según año, plataforma y tipo de duración
+* Cantidad de series y películas por rating
+
+# Arquitectura Propuesta
+![Arquitectura]()
 ##  1. Proceso de ETL
 * Carga de los archivos .csv utilizando pandas
 * Transformación de los datos segun requerimientos de la empresa 
