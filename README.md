@@ -17,12 +17,7 @@ Desarrollo y puesta en produción de una API usando Flask y Heroku Cloud para re
 
    [ETL.ipynb](https://github.com/cquinayas/API_FLASK_MYSQL_HEROKU/blob/main/ETL.ipynb)
 ##  2. Desarrollo de la API en Flask
-* Crear la conexión a la base de datos utilizando las siguientes credenciales: (
-Host: sql10.freemysqlhosting.net,
-Database name: sql10591684,
-Database user: sql10591684,
-Database password: 2vv82khQDF,
-Port number: 3306 )
+* Crear la conexión a la base de datos utilizando las credenciales
 <https://www.phpmyadmin.co/>
 * Crear los endpoint que reciven informacion desde la url y realizan consultas a la base de datos (get_word_count,get_score_count,get_second_score,get_longest,get_rating_count ) 
 
