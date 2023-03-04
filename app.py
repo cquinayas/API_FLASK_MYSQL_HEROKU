@@ -6,11 +6,11 @@ from flask import Flask, render_template, request
 import mysql.connector
 
 mydb = mysql.connector.connect(
-    user = 'sql10591684',
-    password = '2vv82khQDF',
+    user = 'sql10602710',
+    password = 'CsendKslmw',
     host = 'sql10.freemysqlhosting.net',
     port = 3306,
-    database = 'sql10591684'
+    database = 'sql10602710'
 )
 myCursor = mydb.cursor()
 app=Flask(__name__)
