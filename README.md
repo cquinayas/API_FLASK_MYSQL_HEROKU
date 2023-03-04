@@ -8,14 +8,14 @@ Desarrollo y puesta en produción de una API usando Flask y Heroku Cloud para re
 * Cantidad de series y películas por rating
 
 # Arquitectura Propuesta
-![Arquitectura]()
+![Arquitectura](https://github.com/cquinayas/API_FLASK_MYSQL_HEROKU/blob/main/assets/Arquitectura.png)
 ##  1. Proceso de ETL
 * Carga de los archivos .csv utilizando pandas
 * Transformación de los datos segun requerimientos de la empresa 
 * Crear una base de datos en Free Mysql Hosting, registrarse, logearse, ir a MYSQL hosting y crear una base de datos gratuita. Te enviaran al mail los datos de la base de datos ( dabase host, name, database y password) 
 * Ingesta de los datos en una base de datos en Mysql a traves de Python. 
 
-   [ETL.ipynb]()
+   [ETL.ipynb](https://github.com/cquinayas/API_FLASK_MYSQL_HEROKU/blob/main/ETL.ipynb)
 ##  2. Desarrollo de la API en Flask
 * Crear la conexión a la base de datos utilizando las siguientes credenciales: (
 Host: sql10.freemysqlhosting.net,
@@ -31,12 +31,20 @@ Port number: 3306 )
     $   Activar el entorno virtual (.\venv\Scripts\activate)
     $   Instalar paqueteria necesaria (pip install -r requirements.txt)
     $   Correr la API  (app.py)
-[api.py]()  
+[api.py](https://github.com/cquinayas/API_FLASK_MYSQL_HEROKU/blob/main/app.py)  
 ##  2.2 Producción en servidor remoto
 *  Crear un usuario en la página de Heroku
 *  Inicializar git en la carpeta del proyecto (git init, git add.,git commit -m "primer commit", crea un repositorio en gitHub y copia la url, git branch -m main, git remote add origin urlrepositorio, git push -u origin main)
 *  Crear un proyecto en Heroku
 *  Hacer click en el menu en Deploy y elegir Git y conectarse al repositorio de Git, hacer click en Deploy Automatico y luego en Deploy Branch main)
+
+## 3. Despliegue de la API en Heroku 
+<https://api-flask.herokuapp.com/>
+
+## Link video de muestra
+<https://youtu.be/PfWZXSlBt94>
+
+![Arquitectura](https://github.com/cquinayas/API_FLASK_MYSQL_HEROKU/blob/main/assets/API.png)
       
  
 
